@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #F5F8FA;
+  background: #f5f8fa;
 }
 
 .logo {
@@ -30,7 +30,7 @@ ul {
 
 li {
   list-style: none;
-  color: #1D2C3C;
+  color: #1d2c3c;
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -44,7 +44,7 @@ li {
   width: 91px;
   height: 40px;
   border-radius: 6px;
-  border: 2px solid #646E7A;
+  border: 2px solid #646e7a;
   margin-top: 10px;
   margin-right: 10px;
   cursor: pointer;
@@ -73,7 +73,7 @@ li {
 .checkout {
   width: 161px;
   height: 54px;
-  color: #1D2C3C;
+  color: #1d2c3c;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -93,7 +93,7 @@ li {
 }
 
 .basicinfo {
-  color: #1D2C3C;
+  color: #1d2c3c;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -157,7 +157,7 @@ li {
   width: 483px;
   height: 52px;
   border-radius: 5px;
-  background: #038E7D;
+  background: #038e7d;
   text-align: center;
   color: #fff;
   font-size: 18px;
@@ -171,7 +171,7 @@ li {
 }
 
 .footer {
-  color: #646E7A;
+  color: #646e7a;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -196,13 +196,13 @@ li {
 }
 
 .frame2 {
-  background: #1179BF;
+  background: #1179bf;
   width: 312px;
   height: 650px;
 }
 
 .free {
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -213,7 +213,7 @@ li {
 }
 
 .dollar {
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -221,7 +221,7 @@ li {
 }
 
 .number {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -232,7 +232,7 @@ li {
 }
 
 .num {
-  color: #FFF;
+  color: #fff;
   font-family: Lato;
   font-size: 60px;
   font-style: normal;
@@ -243,7 +243,7 @@ li {
 
 .auto {
   width: 229px;
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
@@ -254,15 +254,15 @@ li {
 }
 
 .list {
-  color: #FFF;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: -0.008px;
-padding: 20px;
-padding-bottom: 5px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.008px;
+  padding: 20px;
+  padding-bottom: 5px;
 }
 
 .tick {
@@ -271,7 +271,7 @@ padding-bottom: 5px;
 }
 
 .need {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -282,7 +282,7 @@ padding-bottom: 5px;
 }
 
 .spanner {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -303,7 +303,7 @@ padding-bottom: 5px;
 }
 
 .ftp {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -321,11 +321,10 @@ padding-bottom: 5px;
 .bitimg {
   border-radius: 50%;
   overflow: hidden;
-
 }
 
 .paramap {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -357,7 +356,7 @@ padding-bottom: 5px;
 }
 
 .futa {
-  color: #636B6F;
+  color: #636b6f;
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -366,7 +365,7 @@ padding-bottom: 5px;
 }
 
 .fut {
-  color: #31708F;
+  color: #31708f;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -378,7 +377,7 @@ padding-bottom: 5px;
 }
 
 .doolar {
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -386,3 +385,144 @@ padding-bottom: 5px;
   padding-left: 20px;
   padding-top: 30px;
 }
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+  ul {
+    margin-left: 100px; /* reduce gap */
+  }
+
+  .container {
+    gap: 20px;
+  }
+
+  .grid-inputs,
+  .mailinput,
+  .longinput,
+  .button {
+    width: 90%; /* shrink input widths */
+  }
+}
+
+/* Small screens (mobile) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+    gap: 10px;
+  }
+
+  li {
+    margin-right: 0;
+  }
+
+  .navbutton {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .container {
+    flex-direction: column; /* stack the two frames */
+    align-items: center;
+    height: auto;
+  }
+
+  .frame1,
+  .frame2 {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .grid-inputs,
+  .mailinput,
+  .longinput,
+  .button {
+    width: 95%; /* full width on mobile */
+  }
+
+  .footer {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .footerimg {
+    margin-left: 0;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .checkout {
+    font-size: 24px;
+  }
+  .num {
+    font-size: 40px;
+  }
+}
+
+/* ====== CLEAN NAVBAR FIX ====== */
+
+/* Tablet & down */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-wrap: wrap; /* allow logo + links to wrap */
+    padding: 10px 20px;
+  }
+
+  ul {
+    flex-wrap: wrap; /* wrap nav items if needed */
+    justify-content: flex-start;
+    margin-left: 0; /* remove large gap */
+    gap: 20px; /* even spacing between items */
+    width: 100%;
+  }
+
+  li {
+    margin-right: 0; /* remove fixed margin */
+    padding: 8px 0;
+  }
+
+  .navbutton {
+    margin-top: 10px;
+    margin-left: auto; /* push button to right side neatly */
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* stack everything */
+    align-items: center;
+    padding: 15px;
+  }
+
+  ul {
+    flex-direction: column; /* stack links vertically */
+    align-items: center;
+    gap: 15px;
+  }
+
+  li {
+    font-size: 16px; /* slightly bigger for touch */
+  }
+
+  .navbutton {
+    width: 100%;
+    max-width: 250px;
+    margin: 15px auto 0;
+  }
+}
+
+
